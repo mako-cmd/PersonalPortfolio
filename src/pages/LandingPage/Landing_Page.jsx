@@ -1,9 +1,8 @@
-import TopSection from "./sections/TopSection";
-import Introduction from "./sections/Introduction";
-import Experience from "./sections/Experience/Experience";
-import "./styles/landing_global.css";
-import Separator from "./components/separator";
-import Projects from "./sections/Projects/Projects.jsx";
+import TopSection from './sections/TopSection'
+import Introduction from './sections/Introduction'
+import Experience from './sections/Experience/Experience'
+import './styles/landing_global.css'
+import Projects from './sections/Projects/Projects.jsx'
 const Landing_Page = () => {
   return (
     <>
@@ -12,7 +11,7 @@ const Landing_Page = () => {
       <Experience />
       <Projects />
     </>
-  );
-};
+  )
+}
 
-export default Landing_Page;
+export default Landing_Page
