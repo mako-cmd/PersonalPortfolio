@@ -1,12 +1,11 @@
 import Styled_Tabs from './Components/Tabs'
+import SectionHeader from '../../components/SectionHeader'
 
 let Projects = () => {
   return (
     <div className=' flex flex-col w-screen h-auto overflow-x-hidden place-content-center place-items-center'>
-      <h1 className='font-semibold  lg:text-7xl text-3xl text-center'>
-        Projects
-      </h1>
       <div className='mt-20 mb-20'>
+        <SectionHeader Title='Projects' />
         <Styled_Tabs />
       </div>
     </div>

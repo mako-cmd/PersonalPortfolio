@@ -2,7 +2,7 @@ const BackgroundAnimation = () => {
   return (
     <>
       <div
-        class='inner absolute z-10'
+        class='inner absolute z-10 top-0 left-0'
         style={{ width: '100vw', height: '100vh' }}
       >
         <svg
@@ -15,10 +15,10 @@ const BackgroundAnimation = () => {
             zIndex: '1',
             position: 'relative'
           }}
-          width='1536'
-          height='760'
+          width='auto'
+          height='auto'
           preserveAspectRatio='xMidYMid'
-          viewBox='0 0 1536 760'
+          viewBox='0 0 auto auto'
         >
           <g transform='translate(768,380) scale(1,1) translate(-768,-380)'>
             <linearGradient

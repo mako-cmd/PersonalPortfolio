@@ -60,3 +60,15 @@
 .panel-item:hover div {
   filter: blur(0.1rem) brightness(75%);
 }
+
+@keyframes ld-speed-dash {
+  0% {
+    transform: translate(0, -2027.0883805205474px);
+  }
+  100% {
+    transform: translate(0, 2027.0883805205474px);
+  }
+}
+.ld.ld-speed-dash {
+  animation: ld-speed-dash 100s linear infinite;
+}
