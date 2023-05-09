@@ -3,9 +3,9 @@ import SectionHeader from '../../components/SectionHeader'
 
 let Projects = () => {
   return (
-    <div className=' flex flex-col w-screen h-auto overflow-x-hidden place-content-center place-items-center'>
+    <div className=' flex flex-col w-screen  overflow-x-hidden place-content-center place-items-center min-h-screen'>
+      <SectionHeader Title='Projects' />
       <div className='mt-20 mb-20'>
-        <SectionHeader Title='Projects' />
         <Styled_Tabs />
       </div>
     </div>

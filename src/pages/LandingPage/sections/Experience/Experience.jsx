@@ -93,7 +93,7 @@ and then convert them into effective software solutions.'
   ]
 
   return (
-    <div className='h-screen pt-10'>
+    <div className=' min-h-screen pt-10'>
       <SectionHeader Title='Work Experience' />
       <div className=' max-h-fit w-screen md:grid md:grid-flow-col overflow-hidden flex  flex-col  mt-20 mb-20'>
         <div className=' flex flex-col md:flex-row  place-content-center place-items-center w-screen lg:text-7xl text-3xl gap-4  font-extralight'>

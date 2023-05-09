@@ -58,7 +58,7 @@
 }
 
 .panel-item:hover div {
-  filter: blur(0.1rem) brightness(75%);
+  filter: blur(0.1rem) brightness(50%);
 }
 
 @keyframes ld-speed-dash {

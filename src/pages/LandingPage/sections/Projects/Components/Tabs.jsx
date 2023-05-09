@@ -71,6 +71,7 @@ const StyledTab = styled(Tab)`
   border-radius: 7px;
   display: flex;
   justify-content: center;
+  transition: all 0.3s;
 
   &:hover {
     background-color: #e5e7e1;

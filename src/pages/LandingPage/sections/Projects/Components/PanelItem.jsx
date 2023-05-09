@@ -1,7 +1,7 @@
 import { height } from '@mui/system'
 import '/src/pages/LandingPage/styles/landing_global.css'
 
-let PanelItem = ({ imgUrL, title, description, linkToProject }) => {
+let PanelItem = ({ imgUrL, title, description, linkToProject, color }) => {
   let panelWidth = '30rem'
   let panelHeight = '20rem'
   imgUrL = imgUrL ?? 'img-not-found.png'
@@ -13,7 +13,8 @@ let PanelItem = ({ imgUrL, title, description, linkToProject }) => {
       className='panel-item relative bg-white '
       style={{
         width: panelWidth,
-        height: panelHeight
+        height: panelHeight,
+        color: color ?? 'white'
       }}
     >
       <div
@@ -34,7 +35,9 @@ let PanelItem = ({ imgUrL, title, description, linkToProject }) => {
         <h1 className=' text-xl'>{title ? 'Project: ' + title : ''}</h1>
         <p className=' font-light'>{description ?? ''}</p>
         <br />
-        <i className='font-thin'>{description ? 'Click To Learn More' : ''}</i>
+        <i className='font-thin'>
+          {linkToProject ? 'Click To Learn More' : ''}
+        </i>
       </p>
     </a>
   )
