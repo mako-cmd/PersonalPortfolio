@@ -1,6 +1,7 @@
 import '../styles/landing_global.css'
 
 let Separator = ({ height }) => {
+  height = height ?? '20vh'
   return (
     <>
       <div
@@ -13,7 +14,7 @@ let Separator = ({ height }) => {
           style={{
             margin: 'auto',
             background:
-              'linear-gradient(0deg, transparent, #b2b2b2, transparent)',
+              'linear-gradient(0deg, transparent, rgba(178, 178, 178, 0.8), transparent)',
             display: 'block',
             zIndex: 1,
             position: 'relative'

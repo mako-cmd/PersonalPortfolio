@@ -72,3 +72,12 @@
 .ld.ld-speed-dash {
   animation: ld-speed-dash 100s linear infinite;
 }
+
+.navbar {
+  max-width: 80vw;
+  grid-template-columns: 1fr 3fr;
+}
+
+.navbar ::-webkit-scrollbar {
+  display: none;
+}

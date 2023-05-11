@@ -14,8 +14,8 @@ let WebDevelopment = () => {
         imgUrL='panamax.png'
         title='Panamax Loan System'
         linkToProject='https://panamax.mugonat.net'
-        description='This was the first major project I was given at Mugonat Systems. The system was bare bones and riddled with bugs. Over the course of two months,
-        collaborative efforts beteen the client and myself resulted in a system that is now function and in use today. Unfortunately, due to the nature of this project,
+        description='This was the first major project I was given at Mugonat Systems. The backend for this project is written in Php using the Laravel framework. The frontend is supported by JQuery and VueJS. 
+         Unfortunately, due to the nature of this project,
         I am not able to provide direct access to the deployed system.'
       />
       <PanelItem

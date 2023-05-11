@@ -2,9 +2,10 @@ const Navbar_Item = ({ label, link, style }) => {
   style = style || {
     overflow: 'hidden',
     height: '100%',
-    padding: '0.5rem',
     display: 'flex',
-    margin: '0 5px 0 5px'
+    minWidth: 'max-content',
+    flexShrink: '0',
+    whiteSpace: 'nowrap'
   }
 
   return (
