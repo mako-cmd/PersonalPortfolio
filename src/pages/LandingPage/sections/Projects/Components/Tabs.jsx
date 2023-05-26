@@ -74,11 +74,11 @@ const StyledTab = styled(Tab)`
   transition: all 0.3s;
 
   &:hover {
-    background-color: #e5e7e1;
+    background-color: #dddddd;
   }
 
   &.${tabClasses.selected} {
-    background-color: #e5e7e1;
+    background-color: white;
     color: #44493a;
   }
 
@@ -101,7 +101,7 @@ const StyledTabsList = styled(TabsList)(
   width: auto;
   min-width: 400px;
   padding: 0 50px 0 50px; 
-  background-color: white;
+  background-color: rgb(229 231 235);
   border-radius: 100px;
   margin-bottom: 4rem;
   display: flex;

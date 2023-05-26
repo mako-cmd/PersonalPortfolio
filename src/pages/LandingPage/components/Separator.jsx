@@ -6,15 +6,18 @@ let Separator = ({ height }) => {
     <>
       <div
         className='inner relative'
-        style={{ width: '100vw', height: height }}
+        style={{
+          width: '100vw',
+          height: height,
+          WebkitMaskImage:
+            'linear-gradient(to bottom,transparent, rgba(0,0,0,1), transparent);'
+        }}
       >
         <svg
           xmlns='http://www.w3.org/2000/svg'
           xmlnsXlink='http://www.w3.org/1999/xlink'
           style={{
             margin: 'auto',
-            background:
-              'linear-gradient(0deg, transparent, rgba(178, 178, 178, 0.8), transparent)',
             display: 'block',
             zIndex: 1,
             position: 'relative'

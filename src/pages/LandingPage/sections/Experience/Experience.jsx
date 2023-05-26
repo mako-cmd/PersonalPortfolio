@@ -93,27 +93,29 @@ and then convert them into effective software solutions.'
   ]
 
   return (
-    <div className=' min-h-screen pt-10'>
-      <SectionHeader Title='Work Experience' />
-      <div className=' max-h-fit w-screen md:grid md:grid-flow-col overflow-hidden flex  flex-col  mt-20 mb-20'>
-        <div className=' flex flex-col md:flex-row  place-content-center place-items-center w-screen lg:text-7xl text-3xl gap-4  font-extralight'>
-          <Timeline
-            mode='left'
-            items={timelineItems}
-            className=' w-auto'
-            style={{
-              padding: '1rem',
-              flexGrow: 1,
-              height: 'fit-content'
-            }}
-          />
-          <div
-            className='flex place-content-center max-h-fit'
-            style={{ width: '50vw' }}
-          >
-            <i className='timeline-writeup text-lg  md:pr-40 font-light text-center flex place-content-center md:place-items-center place-items-start'>
-              Hover On A Timeline Item To Learn More
-            </i>
+    <div className=' h-screen flex place-content-center place-items-center'>
+      <div className='card p-10 shadow-md'>
+        <SectionHeader Title='Work Experience' />
+        <div className=' max-h-fit w-screen md:grid md:grid-flow-col overflow-hidden flex  flex-col  mt-20 mb-20'>
+          <div className=' flex flex-col md:flex-row  place-content-center place-items-center w-screen lg:text-7xl text-3xl gap-4  font-extralight'>
+            <Timeline
+              mode='left'
+              items={timelineItems}
+              className=' w-auto'
+              style={{
+                padding: '1rem',
+                flexGrow: 1,
+                height: 'fit-content'
+              }}
+            />
+            <div
+              className='flex place-content-center max-h-fit'
+              style={{ width: '50vw' }}
+            >
+              <i className='timeline-writeup text-lg  md:pr-40 font-light text-center flex place-content-center md:place-items-center place-items-start'>
+                Hover On A Timeline Item To Learn More
+              </i>
+            </div>
           </div>
         </div>
       </div>

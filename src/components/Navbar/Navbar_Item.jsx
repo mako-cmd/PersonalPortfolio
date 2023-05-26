@@ -11,7 +11,7 @@ const Navbar_Item = ({ label, link, style }) => {
   return (
     <>
       <a
-        className='hover:font-semibold text-lg transition-all flex place-items-center'
+        className='hover:font-semibold font-normal text-xl transition-all flex place-items-center'
         href={link ?? '#'}
         style={style}
       >

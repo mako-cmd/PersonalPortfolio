@@ -3,11 +3,12 @@ const BackgroundAnimation = () => {
     <>
       <div
         class='inner absolute z-10 top-0 left-0'
-        style={{ width: '100vw', height: '100vh' }}
+        style={{
+          width: '100vw',
+          height: '100vh'
+        }}
       >
         <svg
-          xmlns='http://www.w3.org/2000/svg'
-          xmlns:xlink='http://www.w3.org/1999/xlink'
           style={{
             margin: 'auto',
             background: 'inherit',

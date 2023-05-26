@@ -6,9 +6,9 @@ const Navbar = () => {
   return (
     <>
       <div className=' fixed z-30 navbar-wrapper flex place-content-center place-items-center h-24 w-screen mt-11'>
-        <div className='navbar max-h-28 w-auto pl-5 pr-10 bg-white rounded-full shadow-md grid gap-4'>
+        <div className='navbar max-h-28 pl-5 pr-10 bg-white rounded-full  flex place-content-center place-items-center'>
           <Navbar_Logo src='earth.png' />
-          <div className='nav-bar-items flex place-content-start gap-4 overflow-y-hidden overflow-x-auto'>
+          <div className='nav-bar-items flex place-content-start gap-4 overflow-y-hidden overflow-x-auto w-0'>
             <Navbar_Item label='Home' />
             <Navbar_Item label='Experience' />
             <Navbar_Item label='Projects' />
