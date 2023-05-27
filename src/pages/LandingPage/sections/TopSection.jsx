@@ -7,7 +7,7 @@ const TopSection = () => {
     <div>
       <BackgroundAnimation />
       <div
-        className='relative z-10 h-screen w-screen grid'
+        className='relative z-10 min-h-screen w-screen grid'
         style={{
           gridTemplateColumns: '1fr 1fr',
           gap: '2rem'

@@ -40,7 +40,7 @@
 }
 
 ::-webkit-scrollbar-track-piece {
-  background-color: inherit;
+  background-color: transparent;
 }
 
 ::-webkit-scrollbar-thumb {
@@ -75,26 +75,39 @@
 
 .navbar {
   max-width: 80vw;
-  opacity: 0.3;
-  width: 12rem;
+
   display: flex;
-  transition: all 1000ms ease-in-out;
   -webkit-box-shadow: 0px 0px 14px 4px rgba(128, 128, 128, 0.29);
   -moz-box-shadow: 0px 0px 14px 4px rgba(128, 128, 128, 0.29);
   box-shadow: 0px 0px 14px 4px rgba(128, 128, 128, 0.29);
 }
 
-.nav-bar-items {
+.navbar-hidable {
+  width: 12rem;
+  opacity: 0.3;
   transition: all 1000ms ease-in-out;
 }
 
-.navbar:hover {
+.nav-bar-items-hidable {
+  width: 0;
+  transition: all 1000ms ease-in-out;
+}
+
+.navbar-hidable:hover {
   width: 32rem;
   opacity: 1;
 }
 
-.navbar:hover .nav-bar-items {
+.navbar-hidable:hover .nav-bar-items {
   width: 100%;
+}
+
+.navbar-hidable:not(:hover) .nav-bar-items {
+  transition-delay: 1s; /* Delay after hovering ends */
+}
+
+.navbar-hidable:not(:hover) {
+  transition-delay: 1.5s; /* Delay after hovering ends */
 }
 
 .navbar ::-webkit-scrollbar {

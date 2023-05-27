@@ -3,11 +3,11 @@ import '../styles/landing_global.css'
 
 const Introduction = () => {
   return (
-    <div className='w-screen h-screen flex place-content-center place-items-center'>
-      <div className=' md:grid md:grid-flow-col overflow-x-hidden flex  flex-col card shadow-md'>
+    <div className='w-screen min-h-screen flex place-content-center place-items-center '>
+      <div className=' md:grid md:grid-flow-col overflow-x-hidden flex  flex-col card shadow-md p-40'>
         <div className=' profile-picture flex place-content-center overflow-hidden place-items-center'>
           <img
-            className='profile-pic rounded-full flex w-auto lg:max-w-2xl lg:p-32 md:p-20 p-10 '
+            className='profile-pic rounded-full flex w-auto max-w-sm p-8'
             src='pro_pic.jpg'
           />
         </div>
