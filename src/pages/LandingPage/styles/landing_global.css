@@ -91,7 +91,7 @@
 }
 
 .navbar.hidable {
-  width: 8rem;
+  width: 4rem;
   opacity: 0.3;
   transition: all 1000ms ease-in-out;
 }
