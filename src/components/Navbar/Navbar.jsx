@@ -6,7 +6,7 @@ const Navbar = () => {
   return (
     <>
       <div className=' fixed z-30 navbar-wrapper flex place-content-center  place-items-center h-24 w-screen mt-2'>
-        <div className='navbar hidable max-h-28 pl-5 pr-10 bg-white rounded-full  flex place-content-center place-items-center'>
+        <div className='navbar hidable max-h-28 bg-white rounded-full  flex place-content-center place-items-center'>
           <Navbar_Logo src='earth.png' />
           <div className='nav-bar-items hidable  flex place-content-start gap-4 overflow-y-hidden overflow-x-auto w-auto'>
             <Navbar_Item label='Home' />

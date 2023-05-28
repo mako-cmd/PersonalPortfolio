@@ -12,7 +12,7 @@ const Navbar_Logo = ({ src, style, link }) => {
     margin: '1rem'
   }
   return (
-    <a href={link ?? '#'} className='logo-wrapper' style={style}>
+    <a href={link ?? null} className='logo-wrapper' style={style}>
       <img className=' max-h-20' src={src} />
     </a>
   )

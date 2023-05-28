@@ -103,6 +103,7 @@
 
 .navbar.hidable:hover {
   width: 32rem;
+  margin-top: 5rem;
   opacity: 1;
 }
 
