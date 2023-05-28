@@ -6,19 +6,13 @@ const TopSection = () => {
   return (
     <div>
       <BackgroundAnimation />
-      <div
-        className='relative z-10 min-h-screen w-screen grid'
-        style={{
-          gridTemplateColumns: '1fr 1fr',
-          gap: '2rem'
-        }}
-      >
-        <div className=' flex flex-col place-content-center place-items-center lg:text-7xl text-3xl  font-extralight '>
+      <div className='relative z-10 h-screen w-screen grid card-inner dynamic'>
+        <div className=' flex flex-col md:place-content-center place-content-end p-4 place-items-center lg:text-7xl text-3xl  font-extralight '>
           <h1>Hi there,</h1>
           <h1>my name is Mako.</h1>
           <h1>I write software.</h1>
         </div>
-        <div className=' flex flex-col place-content-center place-items-center mt-10'>
+        <div className=' flex flex-col md:place-content-center place-content-start p-4 place-items-center md:mt-10'>
           <Button
             type='button'
             className=' btn text-2xl p-10 bg-cyan-600 flex place-content-center place-items-center shadow-lg hover:scale-105 backdrop-blur-md active:scale-100'
