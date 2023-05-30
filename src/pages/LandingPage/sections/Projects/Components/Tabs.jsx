@@ -5,7 +5,7 @@ import TabsList from '@mui/base/TabsList'
 import TabPanel from '@mui/base/TabPanel'
 import { buttonClasses } from '@mui/base/Button'
 import Tab, { tabClasses } from '@mui/base/Tab'
-import WebDevelopment from './TabContent/WebDevelopment'
+import WebDevelopment from './ContentTabs/WebDevelopment'
 
 let Styled_Tabs = () => {
   return (
