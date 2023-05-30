@@ -31,13 +31,14 @@
 }
 
 .tab-panel-inner-wrapper {
-  display: flex;
-  gap: 4rem;
-  flex-wrap: wrap;
+  width: 80vw;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
   place-content: center;
+  place-items: center;
+  gap: 4rem;
   min-height: 22rem;
   max-height: 44rem;
-  align-content: baseline;
   overflow-x: hidden;
   overflow-y: auto;
   padding: 1rem 0 1rem 0;

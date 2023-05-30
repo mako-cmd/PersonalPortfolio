@@ -712,6 +712,10 @@ video {
   transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
 }
 
+.auto-cols-auto {
+  grid-auto-columns: auto;
+}
+
 .grid-flow-row {
   grid-auto-flow: row;
 }

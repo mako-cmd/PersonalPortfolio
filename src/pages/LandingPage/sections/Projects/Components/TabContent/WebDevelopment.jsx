@@ -2,7 +2,7 @@ import PanelItem from '../PanelItem'
 import '/src/pages/LandingPage/styles/landing_global.css'
 let WebDevelopment = () => {
   return (
-    <div className='tab-panel-inner-wrapper w-full flex place-content-center'>
+    <div className='tab-panel-inner-wrapper '>
       <PanelItem
         imgUrL='ToDoList.png'
         title='To Do List V1'
