@@ -1,4 +1,4 @@
-import TopSection from './sections/TopSection'
+import TopSection from './sections/TopSection/TopSection'
 import Introduction from './sections/Introduction'
 import Experience from './sections/Experience/Experience'
 import './styles/landing_global.css'
