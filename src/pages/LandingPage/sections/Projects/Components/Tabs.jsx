@@ -93,7 +93,8 @@ const StyledTabPanel = styled(TabPanel)`
   font-family: IBM Plex Sans, sans-serif;
   font-size: 0.875rem;
   display: flex;
-  align-content: baseline;
+  place-content: center;
+  place-items: center;
 `
 
 const StyledTabsList = styled(TabsList)(

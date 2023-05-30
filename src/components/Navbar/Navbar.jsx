@@ -30,6 +30,7 @@ const Navbar = () => {
     'nav-bar-items',
     'grid',
     'grid-flow-col',
+    'gap-2',
     'overflow-y-hidden',
     'overflow-x-auto',
     'w-auto',
