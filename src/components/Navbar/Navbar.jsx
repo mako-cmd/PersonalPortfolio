@@ -28,9 +28,8 @@ const Navbar = () => {
 
   const navBarItemClass = classNames(
     'nav-bar-items',
-    'flex',
-    'place-content-start',
-    'gap-4',
+    'grid',
+    'grid-flow-col',
     'overflow-y-hidden',
     'overflow-x-auto',
     'w-auto',
@@ -39,7 +38,7 @@ const Navbar = () => {
 
   return (
     <>
-      <div className=' fixed z-30 navbar-wrapper flex place-content-center  place-items-center h-24 w-screen mt-2'>
+      <div className=' fixed z-30 au navbar-wrapper flex place-content-center   place-items-center h-24 w-screen mt-2'>
         <div className={navbarClass}>
           <Navbar_Logo src='earth.png' />
           <div className={navBarItemClass}>

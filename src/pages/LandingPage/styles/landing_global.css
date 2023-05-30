@@ -85,7 +85,7 @@
 
 .navbar {
   max-width: 80vw;
-  width: 32rem;
+  width: 30rem;
   margin-top: 5rem;
   display: flex;
   -webkit-box-shadow: 0px 0px 14px 4px rgba(128, 128, 128, 0.29);
@@ -109,7 +109,7 @@
 }
 
 .navbar.hidable:hover {
-  width: 32rem;
+  width: 30rem;
   opacity: 1;
 }
 
