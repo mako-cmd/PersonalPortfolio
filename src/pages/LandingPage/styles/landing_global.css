@@ -160,11 +160,18 @@
   .card-inner.static {
     grid-template-columns: 1fr 1fr;
   }
+
+  .project-modal {
+    grid-template-columns: 1fr 1fr;
+  }
 }
 
 @media (max-width: 768px) {
   .card-inner {
     grid-template-rows: auto auto;
+  }
+  .project-modal {
+    grid-template-rows: 1fr 1fr;
   }
 }
 
@@ -180,6 +187,5 @@
 .project-modal {
   width: 100%;
   display: grid;
-  grid-template-columns: 1fr 1fr;
   gap: 2rem;
 }
