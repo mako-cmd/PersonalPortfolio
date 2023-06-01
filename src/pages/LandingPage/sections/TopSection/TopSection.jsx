@@ -20,7 +20,7 @@ const TopSection = () => {
   }
 
   return (
-    <div>
+    <div id='Home'>
       <BackgroundAnimation />
       <div className='relative z-10 h-screen w-screen grid card-inner dynamic'>
         <div className=' flex flex-col md:place-content-center place-content-end p-4 place-items-center lg:text-7xl text-3xl  font-extralight '>

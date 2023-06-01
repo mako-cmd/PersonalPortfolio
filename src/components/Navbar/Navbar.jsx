@@ -26,7 +26,7 @@ const Navbar = () => {
     { hidable: hidable }
   )
 
-  const navBarItemClass = classNames(
+  const navBarItemsClass = classNames(
     'nav-bar-items',
     'grid',
     'grid-flow-col',
@@ -42,10 +42,10 @@ const Navbar = () => {
       <div className=' fixed z-30 au navbar-wrapper flex place-content-center   place-items-center h-24 w-screen mt-2'>
         <div className={navbarClass}>
           <Navbar_Logo src='earth.png' />
-          <div className={navBarItemClass}>
-            <Navbar_Item label='Home' />
-            <Navbar_Item label='Experience' />
-            <Navbar_Item label='Projects' />
+          <div className={navBarItemsClass}>
+            <Navbar_Item label='Home' link='#Home' />
+            <Navbar_Item label='Experience' link='#Experience' />
+            <Navbar_Item label='Projects' link='#Projects' />
             <Navbar_Item label='Contact' />
           </div>
         </div>

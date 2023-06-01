@@ -93,7 +93,7 @@ and then convert them into effective software solutions.'
   ]
 
   return (
-    <div className='card-wrapper'>
+    <div className='card-wrapper' id='Experience'>
       <div className='card shadow-md'>
         <SectionHeader Title='Work Experience' />
         <div className='card-inner static lg:text-7xl text-3xl  font-extralight overflow-hidden'>

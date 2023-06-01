@@ -27,6 +27,13 @@ let WebDevelopment = () => {
         I have been tasked with delivering the Fixed Assets module of the system. A system of this nature requires strict adherence to 
         business process flows and accounting principles.'
       />
+      <PanelItem
+        color='white'
+        imgUrL='Simple-Frosted.png'
+        title='Frosted Login'
+        linkToProject='https://frosted-login-template.netlify.app/'
+        description='A simple login form with validations powered by plain JS and CSS.'
+      />
     </div>
   )
 }
