@@ -46,7 +46,12 @@ const Navbar = () => {
             <Navbar_Item label='Home' link='#Home' />
             <Navbar_Item label='Experience' link='#Experience' />
             <Navbar_Item label='Projects' link='#Projects' />
-            <Navbar_Item label='Contact' />
+            <Navbar_Item
+              label='Contact'
+              clickEvent={() => {
+                document.getElementById('contact_btn').click()
+              }}
+            />
           </div>
         </div>
       </div>

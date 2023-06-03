@@ -1,4 +1,4 @@
-const Navbar_Item = ({ label, link, style }) => {
+const Navbar_Item = ({ label, link, style, clickEvent }) => {
   style = style || {
     overflow: 'hidden',
     height: '100%',
@@ -12,7 +12,8 @@ const Navbar_Item = ({ label, link, style }) => {
     <>
       <a
         className='hover:font-semibold font-normal text-xl transition-all flex place-items-center'
-        href={link ?? '#'}
+        href={link ?? null}
+        onClick={clickEvent ?? null}
         style={style}
       >
         {label ?? 'Unlabeled'}
