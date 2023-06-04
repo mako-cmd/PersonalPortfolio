@@ -1,5 +1,6 @@
 import SectionHeader from '../components/SectionHeader'
 import '../styles/landing_global.css'
+import Skill_Bubble from '../../../components/Navbar/Skill_Bubble'
 
 const Introduction = () => {
   return (
@@ -19,6 +20,43 @@ const Introduction = () => {
               last year as an engineer from RMIT University. I am now looking to
               kick start my career in software development. Scroll further to
               have a look at some of my work.
+            </p>
+            <p className=' mt-2'>
+              <div className=' text-lg w-full flex place-content-center place-items-center'>
+                Languages:&nbsp;
+                <Skill_Bubble label='PHP' iconSrc='/LanguageLogos/php.png' />
+                <Skill_Bubble label='C' iconSrc='/LanguageLogos/C.png' />
+                <Skill_Bubble label='C++' iconSrc='/LanguageLogos/cpp.png' />
+                <Skill_Bubble
+                  label='C#'
+                  iconSrc='/LanguageLogos/Csharp_Logo.png'
+                />
+                <Skill_Bubble
+                  label='Javascript'
+                  iconSrc='/LanguageLogos/JS_logo.png'
+                />
+                <Skill_Bubble
+                  label='Assembler'
+                  iconSrc='/LanguageLogos/ASM_logo.png'
+                />
+              </div>
+            </p>
+            <p className='mt-2'>
+              <div className=' text-lg w-full flex place-content-center place-items-center'>
+                Frameworks:&nbsp;
+                <Skill_Bubble
+                  label='Laravel'
+                  iconSrc='/LanguageLogos/Laravel_logo.png'
+                />
+                <Skill_Bubble
+                  label='React'
+                  iconSrc='/LanguageLogos/React_logo.png'
+                />
+                <Skill_Bubble
+                  label='ASP.NET MVC'
+                  iconSrc='/LanguageLogos/asp_net_logo.png'
+                />
+              </div>
             </p>
           </div>
         </div>
