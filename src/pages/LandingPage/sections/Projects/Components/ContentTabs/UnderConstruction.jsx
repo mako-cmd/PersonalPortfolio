@@ -4,7 +4,11 @@ const UnderConstruction = () => {
       className='tab-panel-inner-wrapper place-content-center place-items-center'
       style={{ display: 'flex', flexDirection: 'column' }}
     >
-      <img className=' max-w-sm' src='/barrier.png' alt='Under Construction' />
+      <img
+        className=' md:max-w-sm'
+        src='/barrier.png'
+        alt='Under Construction'
+      />
       <p
         className=' text-center text-lg font-extralight'
         style={{ width: 'inherit' }}

@@ -970,6 +970,10 @@ video {
     width: 20rem;
   }
 
+  .md\:max-w-sm {
+    max-width: 24rem;
+  }
+
   .md\:place-content-center {
     place-content: center;
   }
