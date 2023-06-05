@@ -21,8 +21,8 @@ const Introduction = () => {
               kick start my career in software development. Scroll further to
               have a look at some of my work.
             </p>
-            <p className=' mt-2'>
-              <div className=' text-lg w-full flex place-content-center place-items-center'>
+            <p className=' mt-2 w-full'>
+              <div className=' text-lg w-fit flex place-content-start place-items-center overflow-auto  flex-wrap'>
                 Languages:&nbsp;
                 <Skill_Bubble label='PHP' iconSrc='/LanguageLogos/php.png' />
                 <Skill_Bubble label='C' iconSrc='/LanguageLogos/C.png' />
@@ -41,8 +41,8 @@ const Introduction = () => {
                 />
               </div>
             </p>
-            <p className='mt-2'>
-              <div className=' text-lg w-full flex place-content-center place-items-center'>
+            <p className='mt-2 w-full '>
+              <div className=' text-lg w-fit flex place-content-start place-items-center flex-wrap '>
                 Frameworks:&nbsp;
                 <Skill_Bubble
                   label='Laravel'

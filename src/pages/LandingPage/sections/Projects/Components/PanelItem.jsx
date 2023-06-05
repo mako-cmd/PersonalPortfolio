@@ -11,10 +11,10 @@ let PanelItem = ({
   description,
   linkToProject,
   color,
-  linkToRepo
+  linkToRepo,
+  panelWidth,
+  panelHeight
 }) => {
-  let panelWidth = '30rem'
-  let panelHeight = '20rem'
   imgUrL = imgUrL ?? 'img-not-found.png'
 
   const [isOpen, setIsOpen] = useState(false)
@@ -33,8 +33,8 @@ let PanelItem = ({
         onClick={openModal}
         className='panel-item relative bg-white '
         style={{
-          width: panelWidth,
-          height: panelHeight,
+          width: panelWidth ?? null,
+          height: panelHeight ?? null,
           color: color ?? 'white'
         }}
       >

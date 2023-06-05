@@ -34,8 +34,6 @@
   width: 70vw;
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
-  place-content: center;
-  place-items: center;
   gap: 4rem;
   min-height: 22rem;
   max-height: 44rem;
@@ -141,7 +139,6 @@
   display: flex;
   place-content: center;
   place-items: center;
-  margin-bottom: 10rem;
 }
 
 .card-inner {
@@ -164,6 +161,15 @@
   .project-modal {
     grid-template-columns: 1fr 1fr;
   }
+
+  .card-wrapper {
+    margin-bottom: 10rem;
+  }
+
+  .panel-item {
+    width: 30rem;
+    height: 20rem;
+  }
 }
 
 @media (max-width: 768px) {
@@ -172,6 +178,15 @@
   }
   .project-modal {
     grid-template-rows: auto 1fr;
+  }
+
+  .card-wrapper {
+    margin-bottom: 4rem;
+  }
+
+  .panel-item {
+    width: 15rem;
+    height: 10rem;
   }
 }
 
