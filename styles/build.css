@@ -672,8 +672,28 @@ video {
   width: 100vw;
 }
 
+.w-40 {
+  width: 10rem;
+}
+
+.w-1\/2 {
+  width: 50%;
+}
+
 .max-w-full {
   max-width: 100%;
+}
+
+.max-w-lg {
+  max-width: 32rem;
+}
+
+.max-w-md {
+  max-width: 28rem;
+}
+
+.max-w-sm {
+  max-width: 24rem;
 }
 
 .grow {
@@ -944,6 +964,10 @@ video {
 @media (min-width: 768px) {
   .md\:mt-10 {
     margin-top: 2.5rem;
+  }
+
+  .md\:w-80 {
+    width: 20rem;
   }
 
   .md\:place-content-center {

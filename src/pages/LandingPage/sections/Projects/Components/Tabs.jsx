@@ -6,6 +6,7 @@ import TabPanel from '@mui/base/TabPanel'
 import { buttonClasses } from '@mui/base/Button'
 import Tab, { tabClasses } from '@mui/base/Tab'
 import WebDevelopment from './ContentTabs/WebDevelopment'
+import UnderConstruction from './ContentTabs/UnderConstruction'
 
 let Styled_Tabs = () => {
   return (
@@ -25,8 +26,12 @@ let Styled_Tabs = () => {
       <StyledTabPanel value={1}>
         <WebDevelopment />
       </StyledTabPanel>
-      <StyledTabPanel value={2}>Second page</StyledTabPanel>
-      <StyledTabPanel value={3}>Third page</StyledTabPanel>
+      <StyledTabPanel value={2}>
+        <UnderConstruction />
+      </StyledTabPanel>
+      <StyledTabPanel value={3}>
+        <UnderConstruction />
+      </StyledTabPanel>
     </Tabs>
   )
 }
