@@ -35,7 +35,6 @@
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
   gap: 4rem;
-  place-items: center;
   min-height: 22rem;
   max-height: 44rem;
   overflow-x: hidden;
@@ -165,6 +164,10 @@
 
   .card-wrapper {
     margin-bottom: 10rem;
+  }
+
+  .tab-panel-inner-wrapper {
+    place-items: center;
   }
 
   .panel-item {

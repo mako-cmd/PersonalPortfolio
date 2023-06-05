@@ -41,8 +41,8 @@ let PanelItem = ({
         <div
           className=' hover:absolute hover:inset-0 w-full h-full flex place-content-center place-items-center text-center z-10'
           style={{
-            maxWidth: panelWidth,
-            maxHeight: panelHeight,
+            maxWidth: panelWidth ?? null,
+            maxHeight: panelHeight ?? null,
             backgroundImage: 'url(' + imgUrL + ')',
             backgroundSize: 'cover',
             backgroundPosition: 'center'
