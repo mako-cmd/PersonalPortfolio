@@ -12,7 +12,7 @@ const Experience = () => {
   }
   const timelineItems = [
     {
-      color: 'blue',
+      color: 'orange',
       label: (
         <TimelineLabel
           link='https://3pc.com.au/'
@@ -42,7 +42,7 @@ handling.'
       label: (
         <TimelineLabel link='https://newcold.com/' label='Newcold Advanced' />
       ),
-      color: 'blue',
+      color: 'orange',
       style: itemStyle,
       children: (
         <>
@@ -86,6 +86,22 @@ including a microfinance management platform and an ERP, where I often needed to
 the disciplines of software engineering and accounting/bookkeeping. This required me to
 collaborate closely with clients to generate workflows that met their unique accounting requirements
 and then convert them into effective software solutions.'
+          />
+        </>
+      )
+    },
+    {
+      label: <TimelineLabel link='https://amidata.tech/' label='Amidata' />,
+      color: 'green',
+      style: itemStyle,
+      children: (
+        <>
+          <TimelineChild
+            date='June 2023'
+            name='Systems Engineer'
+            description='Manage data backup solutions for clients, optimizing processes for efficiency and reliability. Utilize PowerShell and Bash scripting to automate and streamline backup procedures. This results in simpler processes and minimized human
+            error. Conduct hardware maintenance tasks and provide field technician support as needed. Participate in the deployment and configuration of backup software and hardware appliances. Appliances include Dell, HPE, Pure Storage and
+            Quantum devices. Monitor backup systems, perform routine checks, and proactively address potential issues to maintain data availability. Develop documentation for custom command line tools used in backup processes. Successfully reduced backup processing time through script optimization and automation. Created command line utilities to generate alerts when backups fail, reducing unnecessary backlog.'
           />
         </>
       )
